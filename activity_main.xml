@@ -10,10 +10,11 @@
         android:src="@drawable/stamkosbday"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop" android:contentDescription="TODO"/>
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/image_name"/>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/happybday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/date_birth"
@@ -21,7 +22,7 @@
         android:layout_alignParentStart="true"
         android:background="@color/colorPrimary"
         android:padding="8dp"
-        android:text="Happy Birthday Stamkos!"
+        android:text="@string/happy_bday"
         android:textColor="@color/colorAccent"
         android:textSize="24sp" />
 
@@ -35,7 +36,7 @@
         android:layout_marginBottom="142dp"
         android:background="@color/colorPrimary"
         android:padding="8dp"
-        android:text="February 7th, 1990"
+        android:text="@string/birth_date"
         android:textAllCaps="true"
         android:textColor="@color/colorAccent"
         android:textSize="16sp" />
@@ -49,7 +50,7 @@
         android:autoLink="web"
         android:textAlignment="center"
         android:padding="8dp"
-        android:text="www.tampabaylightning.com"
+        android:text="@string/lightning_website"
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="16sp" />
