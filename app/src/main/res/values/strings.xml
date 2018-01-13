@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HappyBirthday</string>
+    <string name="happy_bday">Happy Birthday Stamkos!</string>
+    <string name="birth_date">February 07, 1990</string>
+    <string name="lightning_website">www.tampabaylightning.com</string>
+    <string name="image_name">Steven Stamkos</string>
 </resources>

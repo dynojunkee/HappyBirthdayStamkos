@@ -10,23 +10,24 @@
         android:src="@drawable/stamkos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/image_name"/>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView"
+        android:layout_above="@+id/dateofbirth"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="@color/colorPrimary"
         android:padding="8dp"
-        android:text="Happy Birthday Stamkos!"
+        android:text="@string/happy_bday"
         android:textColor="@color/colorAccent"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/dateofbirth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView2"
@@ -35,7 +36,7 @@
         android:layout_marginBottom="29dp"
         android:background="@color/colorPrimary"
         android:padding="8dp"
-        android:text="February 7th, 1990"
+        android:text="@string/birth_date"
         android:textAllCaps="true"
         android:textColor="@color/colorAccent"
         android:textSize="16sp" />
